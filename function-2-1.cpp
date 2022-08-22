@@ -45,7 +45,7 @@ int *readNumbers()
     for(int i=0; i<10; i++)
     {
         cout << "Please enter the  " << i << "th element: ";
-        cin >> numbers[i];
+        cin >> *(numbers+i);
     }
     return numbers;
 }

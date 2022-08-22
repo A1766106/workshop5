@@ -10,9 +10,12 @@ int main()
 {
     int *numbers1;
     int *numbers2;
+    int length = 10;
 
     numbers1 = readNumbers();
     numbers2 = readNumbers();
+
+    cout << equalsArray(numbers1, numbers2, length) << endl;
 
     return 0;
 }
