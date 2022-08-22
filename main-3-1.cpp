@@ -16,6 +16,8 @@ int main()
     numbers2 = readNumbers();
 
     cout << equalsArray(numbers1, numbers2, length) << endl;
+    delete[] numbers1;
+    delete[] numbers2;
 
     return 0;
 }
