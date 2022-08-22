@@ -12,11 +12,11 @@ int *readNumbers()
     int *numbers;
     int length = 10;
     numbers = new int[length];
-    // for(int i=0; i<length; i++)
-    // {
-    //     cout << "Please enter the  " << i << "th element: ";
-    //     cin >> numbers[i];
-    // }
+    for(int i=0; i<length; i++)
+    {
+        cout << "Please enter the  " << i << "th element: ";
+        cin >> numbers[i];
+    }
     return numbers;
 }
 

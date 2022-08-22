@@ -14,7 +14,7 @@ int main()
 
     array=readNumbers();
 
-    printNumbers(array,10);
+    printNumbers(array,length);
 
     return 0;
 }
