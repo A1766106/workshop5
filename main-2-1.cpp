@@ -4,7 +4,7 @@
 
 using namespace std;
 
-extern void hexDigits(int *numbers,int length);
+extern void readNumbers(int *numbers,int length);
 
 int main()
 {
@@ -20,7 +20,7 @@ int main()
         // cout << "Please enter the number you want to have in the " << i << "th element: ";
         // cin >> *(numbers+i);
     }
-    hexDigits(numbers, length);
+    readNumbers(numbers, length);
 
     return 0;
 }

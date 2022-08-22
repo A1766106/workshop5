@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void hexDigits(int *numbers,int length)
+void readNumbers(int *numbers,int length)
 {
     for(int i=0;i<length;i++)
     {
