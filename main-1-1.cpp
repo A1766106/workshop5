@@ -15,6 +15,7 @@ int main()
     array=readNumbers();
 
     printNumbers(array,length);
+    delete[] array;
 
     return 0;
 }

@@ -10,9 +10,8 @@ void printNumbers(int *numbers,int length) ;
 int *readNumbers()
 {
     int *numbers;
-    int length = 10;
-    numbers = new int[length];
-    for(int i=0; i<length; i++)
+    numbers = new int[10];
+    for(int i=0; i<10; i++)
     {
         cout << "Please enter the  " << i << "th element: ";
         cin >> numbers[i];
