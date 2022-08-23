@@ -13,7 +13,6 @@ int *readNumbers()
     numbers = new int[10];
     for(int i=0; i<10; i++)
     {
-        cout << "Please enter the  " << i << "th element: ";
         cin >> *(numbers+i);
     }
     return numbers;
