@@ -13,7 +13,7 @@ int main()
 
     numbers = readNumbers();
 
-    cout << secondSmallestSum(numbers, length) << endl;
+    cout << "The second smallest sum is " << secondSmallestSum(numbers, length) << endl;
 
     delete[] numbers;
 

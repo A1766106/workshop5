@@ -15,8 +15,13 @@ int main()
     int length = 10;
     numbers1 = readNumbers();
     numbers2 = reverseArray(numbers1,length);
-
-    cout << equalsArray(numbers1, numbers2, length) << endl;
-
+    if(equalsArray(numbers1, numbers2, length))
+    {
+        cout << "Array is a palindrome" << endl;
+    }
+    else
+    {
+        cout << "Array is not a palindrome" << endl;
+    }
     return 0;
 }
